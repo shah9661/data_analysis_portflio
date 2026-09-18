@@ -1,0 +1,402 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<!-- ==================== HERO ==================== -->
+<section id="home" class="portfolio-section hero-section">
+
+    <div class="hero-content">
+
+        <h1>Shanshad Alam</h1>
+
+        <h2>Data Analysis | Data Science </h2>
+
+        <p>
+            Data Analyst / Data Scientist focused on transforming
+            data into actionable insights through Python, SQL,
+            statistical analysis, visualization, and machine learning.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+                View Projects
+            </a>
+
+            <a href="https://github.com/shah9661"
+               target="_blank"
+               class="btn btn-dark">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/shan-shad-m-4556-n"
+               target="_blank"
+               class="btn btn-secondary">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== ABOUT ==================== -->
+<section id="about" class="portfolio-section about-section">
+
+    <div class="section-container">
+
+
+        <h2>About Me</h2>
+
+        <p>
+            I’m a Data Analyst /  Data Scientist focused on
+            transforming raw data into meaningful insights using Python,
+            SQL, statistical analysis, data visualization, and machine
+            learning.
+        </p>
+
+        <p>
+            I enjoy working across the complete data workflow from
+            data cleaning and exploratory analysis to building interactive
+            dashboards, developing predictive models, and communicating
+            data-driven insights to support better decision-making.
+        </p>
+
+        </div>
+
+
+</section>
+
+
+<!-- ==================== SKILLS ==================== -->
+<section id="skills" class="portfolio-section skills-section">
+
+    <div class="section-container">
+
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Data Analysis</h3>
+                <p>
+                    Python, Pandas, NumPy, Excel, Data Cleaning, EDA
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>SQL & Databases</h3>
+                <p>
+                    SQL, PostgreSQL, MySQL, Joins, CTEs, Window Functions
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Data Visualization</h3>
+                <p>
+                    Power BI, Tableau, Matplotlib, Seaborn, Dashboard Development,
+                    Streamlit
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Statistics & Analytics</h3>
+                <p>
+                    Descriptive Statistics, Hypothesis Testing, Correlation Analysis, 
+                    Outlier Detection, Feature Engineering
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Machine Learning</h3>
+                <p>
+                    Scikit-learn, Regression, Classification, Clustering, Model Evaluation
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <p>
+                    Git/GitHub, Jupyter, Streamlit, MLflow, DVC
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== PROJECTS ==================== -->
+<section id="projects" class="portfolio-section projects-section">
+
+    <div class="section-container">
+
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+
+                <h3>Influencer Insights </h3>
+
+                <p>
+                    An end-to-end NLP and Machine Learning project that analyzes YouTube comments and converts unstructured audience feedback into actionable insights.
+                </p>
+
+                <p class="project-tech">
+                     Python · LightGBM · scikit-learn
+                     · NLTK · Optuna · MLflow · DVC  · FastAPI · HTML · CSS ·JavaScript · Youtube APIs · Pytest · GitHub Actions · Docker · AWS  
+                </p>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/shah9661/yt-comment-analysis">
+                         Backend →
+                    </a>
+                    <a href="https://github.com/shah9661/youtube_comments_analysis_plugin">
+                        Frontend →
+
+                    </a>
+
+                    <a href="#">
+                        Live Demo →
+                    </a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="project-card">
+
+                <h3>Aadhaar Enrolment & Update Analytics</h3>
+
+                <p>
+                    End-to-end data analytics project analyzing large-scale Aadhaar
+                    enrolment and update data to uncover regional trends, demographic
+                    disparities, operational patterns, and data-quality anomalies.
+                </p>
+
+                <p class="project-tech">
+                    Python · Pandas · NumPy · SQL · PostgreSQL · Power BI · DAX ·
+                    Scikit-learn · Matplotlib · Seaborn · Statistical Analysis
+                </p>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/shah9661/aadhar"
+                    target="_blank">
+                        GitHub →
+                        </a>
+
+                        <a href="#"
+                        target="_blank">
+                            Dashboard →
+                        </a>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Flights Analytics Dashboard</h3>
+
+                <p>
+                    Interactive data analytics dashboard built to analyze flight
+                    booking data, enabling route-level flight search and exploration
+                    of airline distribution, airport activity, and daily flight trends.
+                </p>
+
+                <p class="project-tech">
+                    Python · Pandas · PostgreSQL · SQL · Streamlit · Plotly ·
+                    psycopg2 · Data Visualization
+                </p>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/shah9661/Flight_dashbord"
+                    target="_blank">
+                        GitHub →
+                    </a>
+
+                    <a href="https://flightdashbord-mrqznjkgxauhssjwwkdz7h.streamlit.app/"
+                    target="_blank">
+                        Live Demo →
+                    </a>
+
+                </div>
+
+
+            </div>
+
+            
+
+
+            <div class="project-card">
+
+                <h3>Insurance Premium Predictor</h3>
+
+                <p>
+                    Machine learning application using Random Forest
+                    with a FastAPI REST API and cloud deployment.
+                </p>
+
+                <p class="project-tech">
+                    Random Forest · FastAPI · PostgreSQL · Docker · AWS EC2
+                </p>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/shah9661/insorance">
+                        GitHub →
+                    </a>
+
+                    <!-- <a href="#">
+                        App →
+                    </a> -->
+
+                </div>
+
+            </div>
+
+
+
+</div>
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== EXPERIENCE ====================
+<section id="experience" class="portfolio-section experience-section">
+
+    <div class="section-container">
+
+        <h2>Experience</h2>
+
+        <div class="experience-card">
+
+            <h3>AI & Machine Learning Intern</h3>
+
+            <h4>UptoSkills · Feb 2025 – May 2025</h4>
+
+            <ul>
+                <li>
+                    Built and deployed machine learning models
+                    for classification and regression tasks.
+                </li>
+
+                <li>
+                    Developed an AI Tutor module using
+                    LLM-based question answering.
+                </li>
+
+                <li>
+                    Collaborated with developers and data scientists
+                    in a professional development environment.
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section> -->
+
+
+<!-- ==================== EDUCATION ==================== -->
+<section id="education" class="portfolio-section education-section">
+
+    <div class="section-container">
+
+        <h2>Education</h2>
+
+        <div class="education-grid">
+
+            <div class="education-card">
+
+                <h3>B.Tech – Electrical Engineering</h3>
+
+                <p>
+                    Jamia Millia Islamia, Central University
+                </p>
+
+                <span>2023 – 2027</span>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>Senior Secondary – Science</h3>
+
+                <p>
+                    Aligarh Muslim University
+                </p>
+
+                <span>2020 – 2022</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+<section id="contact" class="portfolio-section contact-section">
+
+    <div class="section-container">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            Interested in Data Analytics, Data Science, and solving real-world problems
+             through data-driven insights.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="mailto:shanshad0999@gmail.com">
+                Email
+            </a>
+
+            <a href="https://github.com/shah9661" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/shan-shad-m-4556-n"
+               target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="{{ url_for('static', filename='files/resume.pdf') }}"
+               target="_blank">
+                Resume
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
+
